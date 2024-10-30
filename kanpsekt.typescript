@@ -1,0 +1,20 @@
+Typescript - Malumotlarni tiplarni aniqlash va shu yordamida xatoliklarni oldini olish uchun js ga compiler qilib ishlatamiz
+
+avval birorta (.ts ) fayl ochiladi
+
+shundan song bizga (.js ) faylga complier qilish uchun
+
+tsc buyrugi beriladi.So'ng (.ts) faylimiz avtomatik ravish (.js)
+
+faylga Complier qiladi.Chunki scss (SAS) singari kopmyuter .ts faylni 
+
+tushunmidi. Shuning uchun js ga complier qilib ishlatamiz.
+
+git --init yordamida config ochiladi.So'ng unga 
+
+(.ts) faylni qatorlarni kuzatishi va kodlarni aniqlash oson bolishi uchun
+
+"sourceMap": true, holatga keltirib otamiz otishimiz kerak. 
+
+
+

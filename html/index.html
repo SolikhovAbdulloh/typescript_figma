@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typescript</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="contiener flex justify-between items-center">
+        <a href="#">
+          <img class="hover:bg-white" src="../img/logo.png" alt="logo" />
+        </a>
+        <ul class="flex items-center gap-3">
+          <li><a href="#">Главная </a></li>
+          <li><a href="#">Pro-Запрос </a></li>
+          <li><a href="#">Гараж </a></li>
+          <li><a href="#"> Контакты </a></li>
+          <li><a href="#">Заказы </a></li>
+        </ul>
+
+        <div class="flex items-center">
+          <img class="cursor-pointer" src="../img/karzinka.png" alt="" />
+          <p id="karzinka_sum">0</p>
+        </div>
+        <div class="flex items-center gap-1 w-[90px]">
+          <img class="cursor-pointer" src="/img/user1.png" alt="ss" />
+          <button
+            class="bg-[#5d98e5] text-white hover:bg-[green] h-[25px] p-1 flex items-center"
+          >
+            Войти
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="contiener">
+        <form class="flex items-center justify-center">
+          <input
+            type="text"
+            placeholder="Поиск по артикулу"
+            class="w-[50%] h-[100%] p-[7px] border-[green]"
+          />
+          <button class="bg-[#5d98e5] p-2 text-white h-[33px] flex items-center justify-center hover:bg-[green]">
+            Поиск
+          </button>
+        </form>
+        <div class="contiener flex justify-between items-center">
+          <div>
+            <h2 class="font-bold text-[60px] text-[#434242]">
+              Предлагаем только <br />
+              качественные <span class="text-[#5d98e5]">запчасти</span><br />
+              для иномарок
+            </h2>
+            <div class="flex items-center gap-3">
+              <button
+                class="w-[470px] h-[90px] text-white bg-[linear-gradient(180deg,_#ff5454_0%,_#cd4848_100%)] hover:bg-[linear-gradient(180deg,_#ff5454_0%,_#cd4878_100%)]"
+              >
+                Посмотреть каталог
+              </button>
+              <p>Более 50 товаров</p>
+            </div>
+          </div>
+
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="s" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="s" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="s" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="w" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="r" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="y" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Balon.png" alt="w" />
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="contiener flex justify-around items-center gap-2">
+      <button
+        class="w-[470px] h-[120px] bg-[#5d98e5] hover:bg-[green] font-semibold text-[30px] text-[#fff]"
+      >
+        Высокое качество
+      </button>
+      <button
+        class="w-[470px] h-[120px] bg-[#5d98e5] hover:bg-[green] font-semibold text-[30px] text-[#fff]"
+      >
+        Лучшие на рынке
+      </button>
+      <button
+        class="w-[470px] h-[120px] bg-[#5d98e5] hover:bg-[green] font-semibold text-[30px] text-[#fff]"
+      >
+        Большой выбор
+      </button>
+    </div>
+
+    <section>
+      <div class="contiener">
+        <h2 class="font-bold text-[190px] text-[rgba(67,_66,_66,_0.1)]">
+          О компании
+        </h2>
+        <div class="flex justify-between items-center">
+          <div
+            class="left_ flex flex-col justify-around text-[24px] w-[80%] h-[100%]"
+          >
+            <h2 class="font-bold text-[64px] text-[#434242]">О компании</h2>
+
+            <p class="font-medium text-[24px] text-[#000]">
+              Компания Mannex: продажа запчастей и аксессуаров высокого <br />
+              качества Компания Mannex начала свою деятельность недавно, но уже
+              успела <br />
+              заслужить хорошую репутацию среди покупателей. Количество <br />
+              положительных отзывов в адрес нашей компании от благодарных <br />
+              клиентов растет с каждым днем. В нашем интернет-магазине вы <br />
+              можете купить
+            </p>
+            <br />
+            <button
+              class="w-[50%] h-[99px] hover:bg-[green] border-[grey] hover:text-[white] border-[2px] border-[solid] "
+            >
+              Читать дальше
+            </button>
+          </div>
+          <div>
+            <img src="../img/foto.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener">
+        <h2 class="font-bold text-[64px] text-[#434242]">Каталог</h2>
+        <div class="flex justify-center items-center gap-4">
+          <a href="">Шини</a>
+          <a href="">Диски</a>
+          <a href="">Аксессуары </a>
+          <a href="">Каталог ТО </a>
+          <a href="">Масла и автохимия </a>
+          <a href=""> Колпаки </a>
+          <a href=""> Болты, </a>
+          <a href=""> Аккумуляторы </a>
+          <a href=""> гайки </a>
+        </div>
+      
+    </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="contiener">
+            <div class="flex justify-between  items-center">
+
+                <div class="collect flex flex-col justify-between items-center w-[250px] h-[550px] border-[solid] border-[2px] border-[black] p-3">
+                   <div class="flex flex-col items-start gap-2" >
+
+                       <h2 class="font-medium ">Тип</h2>
+                       <button  class=" buttons w-[100%] h-[50px] border-[solid] border-[2px] border-[black] p-3 flex items-center justify-around" id="btn_first" > Летние<i class="fa fa-angle-down" aria-hidden="true" id="down_click"></i></button>
+                       <div class="text-accordion">
+                           Lorem, ipsum dolor.
+                        </div>
+                        
+                    </div> 
+
+                     <div class="flex flex-col items-start gap-2" >
+
+                       <h2 class="font-medium">Производитель</h2>
+                         
+                         <button class="buttons w-[100%] h-[50px] border-[solid] border-[2px] border-[black] p-3 flex items-center justify-around" id="btn_first" > Выбраны все<i class="fa fa-angle-down" aria-hidden="true" id="down_click"></i></button>
+                         <div class="text-accordion">
+                             Lorem, ipsum dolor.
+                            </div>
+                        </div>
+
+
+                     <div class="flex flex-col items-start gap-2" >
+                    <h2 class="font-medium">Размер</h2>
+                  <button class="  buttons w-[100%] h-[50px] border-[solid] border-[2px] border-[black] p-3 flex items-center justify-around" id="btn_first" > Выбраны все<i class="fa fa-angle-down" aria-hidden="true" id="down_click"></i></button>
+                    <div class="text-accordion">
+                        Lorem, ipsum dolor.
+                    </div>
+                    </div>
+
+
+                       <div class="flex flex-col items-start gap-2" >
+                    <h2 class="font-medium">Диаметр</h2>
+                  <button class="  buttons w-[100%] h-[50px] border-[solid] border-[2px] border-[black] p-3 flex items-center justify-around" id="btn_first" > Выбраны все<i class="fa fa-angle-down" aria-hidden="true" id="down_click"></i></button>
+                    <div class="text-accordion">
+                        Lorem, ipsum dolor.
+                    </div>
+                    </div>
+
+                    <button class="bg-[#4BA9FF] w-[70%] h-[63px] p-2 text-white hover:bg-[green]" >Подобрать</button>
+                </div>
+              
+                <!-- cardlarni grid qilish -->
+              <div class="grid grid-cols-[repeat(3,2fr)] gap-[30px]">
+
+                <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+
+                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+
+
+
+
+                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+
+
+                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+
+                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button id="plus" class="text-[green] text-[55px]">+</button>
+                          <p id="sum">0</p>
+                          <button id="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img id="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#F5F5F5] p-2">
+      <div class="contiener flex justify-between items-start">
+        <div class="flex flex-col cursor-pointer">
+          <img src="../img/logo.png" alt="logo" />
+          <br />
+          <p>
+            2020 © Mannex Все права защищены<br />
+
+            Публичная оферта
+          </p>
+        </div>
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Основное</h3>
+          <a href="#">Главная</a>
+          <a href="#"> О компании</a>
+          <a href="#">Pro-Запрос </a>
+          <a href="#"> Гараж</a>
+          <a href="#"> Контакты</a>
+          <a href="#"> Заказы </a>
+        </div>
+
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Аккаунт</h3>
+          <a href="">Главная</a>
+          <a href=""> О компании</a>
+          <a href="">Pro-Запрос </a>
+          <a href=""> Гараж</a>
+          <a href=""> Контакты</a>
+          <a href=""> Заказы </a>
+        </div>
+
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Контакты</h3>
+          <a href="" class="flex items-center gap-3"
+            ><img src="../img/sms.svg" alt="" />Главная</a
+          >
+          <a href="" class="flex items-center gap-3"
+            ><img class="w-5" src="../img/tel.svg" alt="" />8 900 203 8083
+            <br />
+            8 900 203 8083</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper3 = new Swiper(".mySwiper3", {
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+          prev: {
+            shadow: true,
+            translate: ["-20%", 0, -1],
+          },
+          next: {
+            translate: ["100%", 0, 0],
+          },
+        },
+      });
+
+      // `swiper3.slidePrev()` va `swiper3.slideNext()` funksiyalari orqali slayderni boshqaradi
+    </script>
+    <script src="../ts/main.js"></script>
+  </body>
+</html>

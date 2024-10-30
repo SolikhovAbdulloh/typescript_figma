@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+.contiener{
+    padding: 10px 30px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+a{
+    padding: 7px;
+}
+a:hover{
+    background-color: #5d98e5;
+    color: white;
+    
+}
+.btn{
+    background-color: #5d98e5;
+    color: white;
+}
+img{
+    width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.swiper {
+      margin: 100px auto;
+      width: 30%;
+      
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .swiper-slide:nth-child(1n) {
+      background-color: white;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      background-color: white;
+    }
+
+    .swiper-slide:nth-child(3n) {
+                  background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(4n) {
+                background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(5n) {
+                 background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(6n) {
+                  background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(7n) {
+                  background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(8n) {
+                  background-color: white;
+
+
+    }
+
+    .swiper-slide:nth-child(9n) {
+            background-color: white;
+
+    }
+
+    .swiper-slide:nth-child(10n) {
+            background-color: white;
+
+    }
+    .text-accordion{
+        display: none;
+    }
