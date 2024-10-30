@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typescript</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="contiener flex justify-between items-center">
+        <a href="#">
+          <img class="hover:bg-white" src="../img/logo.png" alt="logo" />
+        </a>
+        <ul class="flex items-center gap-3">
+          <li><a href="./index.html">Главная </a></li>
+          <li><a href="./index.html">Pro-Запрос </a></li>
+          <li><a href="./index.html">Гараж </a></li>
+          <li><a href="./index.html"> Контакты </a></li>
+          <li><a href="./index.html">Заказы </a></li>
+        </ul>
+
+        <div class="flex items-center">
+          <img class="cursor-pointer" src="../img/karzinka.png" alt="" />
+          <p id="karzinka_sum">0</p>
+        </div>
+        <div class="flex items-center gap-1 w-[90px]">
+          <img class="cursor-pointer" src="/img/user1.png" alt="ss" />
+          <button
+            class="bg-[#5d98e5] text-white hover:bg-[green] h-[25px] p-1 flex items-center"
+          >
+            Войти
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="contiener">
+        <form class="flex items-center justify-center">
+          <input
+            type="text"
+            placeholder="Поиск по артикулу"
+            class="w-[50%] h-[100%] p-[7px] border-[green]"
+          />
+          <button class="bg-[#5d98e5] p-2 text-white h-[33px] flex items-center justify-center hover:bg-[green]">
+            Поиск
+          </button>
+        </form>
+       </div>
+       <div class="tent flex items-center justify-center gap-3">
+
+
+                         <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button class="plus" class="text-[green] text-[55px]">+</button>
+                          <p class="sum">0</p>
+                          <button class="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img class="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+         <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[50px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button class="plus" class="text-[green] text-[55px]">+</button>
+                          <p class="sum">0</p>
+                          <button class="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img class="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+                                  <div class="cards">
+                    <div class="card p-5 w-[300px] h-[473px] border-[solid] border-[black] border-[2px] gap-2 flex flex-col items-start justify-around">
+                        <img src="../img/Balon.png" alt="">
+                        <p class="font-bold text-[36px] text-[#000]">Michelin</p>
+                        <p>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</p>
+                      
+                      <div class="flex items-center  gap-3">
+
+                          <button id="allsum" class="bg-[#5d98e5] p-3 w-[100px] h-[30px] text-[white] flex items-center justify-center">990</button>
+                          <div class="flex items-center justify-center gap-2">
+                          <button class="plus" class="text-[green] text-[55px]">+</button>
+                          <p class="sum">0</p>
+                          <button class="minus" class="text-[red] text-[55px]">-</button></div>
+                          <button><img class="karzinka" src="../img/karzinka.png" alt=""></button>
+                      </div> 
+                    </div>
+                </div>
+
+            </div>
+            <div class="items-center flex justify-center mt-4 mb-4">
+
+                <button
+                class="w-[470px] h-[90px] flex items-center justify-center text-white bg-[linear-gradient(180deg,_#ff5454_0%,_#cd4848_100%)] hover:bg-[linear-gradient(180deg,_#ff5454_0%,_#cd4878_100%)]"
+                >
+                Оплатить
+            </button>
+        </div>
+
+
+
+             <footer class="bg-[#F5F5F5] p-2">
+      <div class="contiener flex justify-between items-start">
+        <div class="flex flex-col cursor-pointer">
+          <img src="../img/logo.png" alt="logo" />
+          <br />
+          <p>
+            2020 © Mannex Все права защищены<br />
+
+            Публичная оферта
+          </p>
+        </div>
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Основное</h3>
+          <a href="#">Главная</a>
+          <a href="#"> О компании</a>
+          <a href="#">Pro-Запрос </a>
+          <a href="#"> Гараж</a>
+          <a href="#"> Контакты</a>
+          <a href="#"> Заказы </a>
+        </div>
+
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Аккаунт</h3>
+          <a href="">Главная</a>
+          <a href=""> О компании</a>
+          <a href="">Pro-Запрос </a>
+          <a href=""> Гараж</a>
+          <a href=""> Контакты</a>
+          <a href=""> Заказы </a>
+        </div>
+
+        <div class="flex flex-col items-start justify-between">
+          <h3 class="font-semibold text-[24px] text-[#000]">Контакты</h3>
+          <a href="" class="flex items-center gap-3"
+            ><img src="../img/sms.svg" alt="" />Главная</a
+          >
+          <a href="" class="flex items-center gap-3"
+            ><img class="w-5" src="../img/tel.svg" alt="" />8 900 203 8083
+            <br />
+            8 900 203 8083</a
+          >
+        </div>
+      </div>
+    </footer>
+            <script src="../ts/main.js"></script>
+          </body>

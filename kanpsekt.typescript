@@ -16,5 +16,22 @@ git --init yordamida config ochiladi.So'ng unga
 
 "sourceMap": true, holatga keltirib otamiz otishimiz kerak. 
 
+Type assertion - 
+
+Unkown Type -
+
+Union Type -
+
+Literal Type -
+
+Type alieases -
+
+Option properties -
+
+Redonly - qattiy tekshirish yani kiritilgan malumotni ozgartirish mumkin emas 
+
+in operator -
+
+ Assigning types to arrays -
 
 
